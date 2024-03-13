@@ -43,8 +43,8 @@ Step to run project:
 
 
 ## Curl
-1. GetStoredVideoDetails -
+1. GetStoredVideoDetails :
 curl --location 'localhost:8080/details/getStoredVideoDetails?pageNumber=2&pageSize=15'
 
-2. SearchQueryBasedVideo -
+2. SearchQueryBasedVideo :
 curl --location 'localhost:8080/details/searchQueryBasedVideo?title=virat%20kohli&description=India%20win%20the%20world%20cup'
