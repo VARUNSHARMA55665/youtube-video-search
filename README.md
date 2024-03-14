@@ -12,6 +12,8 @@
 
 Backend - Golang
 
+Golang Framework - Gin
+
 Database - NoSql(MongoDB)
 
 
