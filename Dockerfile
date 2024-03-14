@@ -3,7 +3,6 @@ FROM golang:alpine as builder
 RUN mkdir /app
 ADD . /app
 WORKDIR /app
-# RUN go test
 RUN go build -o video_search .
 # Final build with minimal FS
 FROM golang:alpine as finalBuild

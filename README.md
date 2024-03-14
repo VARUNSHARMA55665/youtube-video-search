@@ -38,8 +38,9 @@ Step to run project:
 
 2 Docker
 - Clone project - (https://github.com/VARUNSHARMA55665/youtube-video-search.git)
-- Run docker build -t youtube-video .
-- Run docker run -it --rm youtube-video
+- Run :- docker build -t youtube-video .
+- Run :- docker run -it --name youtube -p 8080:8080 youtube-video
+Note - Run above commands on the same directory where Dockerfile is present
 
 
 ## Curl
