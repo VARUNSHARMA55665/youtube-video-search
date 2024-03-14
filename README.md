@@ -46,7 +46,9 @@ Note - Run above commands on the same directory where Dockerfile is present
 
 ## Curl
 1. GetStoredVideoDetails :
+
 curl --location 'localhost:8080/details/getStoredVideoDetails?pageNumber=2&pageSize=15'
 
 2. SearchQueryBasedVideo :
+
 curl --location 'localhost:8080/details/searchQueryBasedVideo?title=virat%20kohli&description=India%20win%20the%20world%20cup'
